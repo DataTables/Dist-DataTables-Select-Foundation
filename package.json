@@ -1,0 +1,29 @@
+{
+    "name": "datatables.net-select-zf",
+    "version": "1.0.1",
+    "description": "Select for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
+    "files": [
+        "css/select.foundation.css"
+    ],
+    "main": "./js/select.foundation.js",
+    "keywords": [
+        "select",
+        "selection",
+        "DataTables",
+        "jQuery",
+        "table",
+        "Foundation"
+    ],
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-zf": ">=1.10.9",
+        "datatables.net-select": ">=1.0.1"
+    }
+}
