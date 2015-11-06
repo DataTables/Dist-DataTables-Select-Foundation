@@ -5,12 +5,12 @@ table.dataTable tbody > tr > .selected {
 table.dataTable.stripe tbody > tr.odd.selected,
 table.dataTable.stripe tbody > tr.odd > .selected, table.dataTable.display tbody > tr.odd.selected,
 table.dataTable.display tbody > tr.odd > .selected {
-  background-color: #0089b6;
+  background-color: #0088b5;
 }
 table.dataTable.hover tbody > tr.selected:hover,
 table.dataTable.hover tbody > tr > .selected:hover, table.dataTable.display tbody > tr.selected:hover,
 table.dataTable.display tbody > tr > .selected:hover {
-  background-color: #0087b3;
+  background-color: #0086b3;
 }
 table.dataTable.order-column tbody > tr.selected > .sorting_1,
 table.dataTable.order-column tbody > tr.selected > .sorting_2,
@@ -22,34 +22,34 @@ table.dataTable.display tbody > tr > .selected {
   background-color: #0089b6;
 }
 table.dataTable.display tbody > tr.odd.selected > .sorting_1, table.dataTable.order-column.stripe tbody > tr.odd.selected > .sorting_1 {
-  background-color: #0084b0;
+  background-color: #0084af;
 }
 table.dataTable.display tbody > tr.odd.selected > .sorting_2, table.dataTable.order-column.stripe tbody > tr.odd.selected > .sorting_2 {
   background-color: #0085b1;
 }
 table.dataTable.display tbody > tr.odd.selected > .sorting_3, table.dataTable.order-column.stripe tbody > tr.odd.selected > .sorting_3 {
-  background-color: #0087b3;
+  background-color: #0086b2;
 }
 table.dataTable.display tbody > tr.even.selected > .sorting_1, table.dataTable.order-column.stripe tbody > tr.even.selected > .sorting_1 {
   background-color: #0089b6;
 }
 table.dataTable.display tbody > tr.even.selected > .sorting_2, table.dataTable.order-column.stripe tbody > tr.even.selected > .sorting_2 {
-  background-color: #008ab8;
+  background-color: #008ab7;
 }
 table.dataTable.display tbody > tr.even.selected > .sorting_3, table.dataTable.order-column.stripe tbody > tr.even.selected > .sorting_3 {
   background-color: #008bb9;
 }
 table.dataTable.display tbody > tr.odd > .selected, table.dataTable.order-column.stripe tbody > tr.odd > .selected {
-  background-color: #0084b0;
+  background-color: #0084af;
 }
 table.dataTable.display tbody > tr.even > .selected, table.dataTable.order-column.stripe tbody > tr.even > .selected {
   background-color: #0089b6;
 }
 table.dataTable.display tbody > tr.selected:hover > .sorting_1, table.dataTable.order-column.hover tbody > tr.selected:hover > .sorting_1 {
-  background-color: #0081ab;
+  background-color: #0080aa;
 }
 table.dataTable.display tbody > tr.selected:hover > .sorting_2, table.dataTable.order-column.hover tbody > tr.selected:hover > .sorting_2 {
-  background-color: #0082ac;
+  background-color: #0081ac;
 }
 table.dataTable.display tbody > tr.selected:hover > .sorting_3, table.dataTable.order-column.hover tbody > tr.selected:hover > .sorting_3 {
   background-color: #0083ae;
@@ -57,7 +57,7 @@ table.dataTable.display tbody > tr.selected:hover > .sorting_3, table.dataTable.
 table.dataTable.display tbody > tr:hover > .selected,
 table.dataTable.display tbody > tr > .selected:hover, table.dataTable.order-column.hover tbody > tr:hover > .selected,
 table.dataTable.order-column.hover tbody > tr > .selected:hover {
-  background-color: #0081ab;
+  background-color: #0080aa;
 }
 table.dataTable td.select-checkbox {
   position: relative;
