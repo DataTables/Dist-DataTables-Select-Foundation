@@ -19,7 +19,7 @@ npm install datatables.net-select-zf
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-select-zf' )( $ );
+require( 'datatables.net-select-zf' )( window, $ );
 ```
 
 ### bower
