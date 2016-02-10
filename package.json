@@ -5,7 +5,6 @@
     "files": [
         "css/select.foundation.css"
     ],
-    "main": "./js/select.foundation.js",
     "keywords": [
         "select",
         "selection",
