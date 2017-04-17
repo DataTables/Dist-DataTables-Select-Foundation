@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-select-zf",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "Select for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "css/select.foundation.css"
