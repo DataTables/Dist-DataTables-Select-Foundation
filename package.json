@@ -3,7 +3,8 @@
     "version": "1.2.5",
     "description": "Select for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "style": "css/select.foundation.css",
     "keywords": [
@@ -29,5 +30,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-Select-Foundation.git"
-    }
+    },
+    "main": "js/select.foundation.js"
 }
