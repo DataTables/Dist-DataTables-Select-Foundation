@@ -1,3 +1,4 @@
+@charset "UTF-8";
 table.dataTable tbody > tr.selected,
 table.dataTable tbody > tr > .selected {
   background-color: #008cba;
@@ -5,12 +6,12 @@ table.dataTable tbody > tr > .selected {
 table.dataTable.stripe tbody > tr.odd.selected,
 table.dataTable.stripe tbody > tr.odd > .selected, table.dataTable.display tbody > tr.odd.selected,
 table.dataTable.display tbody > tr.odd > .selected {
-  background-color: #0088b5;
+  background-color: #0089b6;
 }
 table.dataTable.hover tbody > tr.selected:hover,
 table.dataTable.hover tbody > tr > .selected:hover, table.dataTable.display tbody > tr.selected:hover,
 table.dataTable.display tbody > tr > .selected:hover {
-  background-color: #0086b3;
+  background-color: #0087b3;
 }
 table.dataTable.order-column tbody > tr.selected > .sorting_1,
 table.dataTable.order-column tbody > tr.selected > .sorting_2,
@@ -22,34 +23,34 @@ table.dataTable.display tbody > tr > .selected {
   background-color: #0089b6;
 }
 table.dataTable.display tbody > tr.odd.selected > .sorting_1, table.dataTable.order-column.stripe tbody > tr.odd.selected > .sorting_1 {
-  background-color: #0084af;
+  background-color: #0084b0;
 }
 table.dataTable.display tbody > tr.odd.selected > .sorting_2, table.dataTable.order-column.stripe tbody > tr.odd.selected > .sorting_2 {
   background-color: #0085b1;
 }
 table.dataTable.display tbody > tr.odd.selected > .sorting_3, table.dataTable.order-column.stripe tbody > tr.odd.selected > .sorting_3 {
-  background-color: #0086b2;
+  background-color: #0087b3;
 }
 table.dataTable.display tbody > tr.even.selected > .sorting_1, table.dataTable.order-column.stripe tbody > tr.even.selected > .sorting_1 {
   background-color: #0089b6;
 }
 table.dataTable.display tbody > tr.even.selected > .sorting_2, table.dataTable.order-column.stripe tbody > tr.even.selected > .sorting_2 {
-  background-color: #008ab7;
+  background-color: #008ab8;
 }
 table.dataTable.display tbody > tr.even.selected > .sorting_3, table.dataTable.order-column.stripe tbody > tr.even.selected > .sorting_3 {
   background-color: #008bb9;
 }
 table.dataTable.display tbody > tr.odd > .selected, table.dataTable.order-column.stripe tbody > tr.odd > .selected {
-  background-color: #0084af;
+  background-color: #0084b0;
 }
 table.dataTable.display tbody > tr.even > .selected, table.dataTable.order-column.stripe tbody > tr.even > .selected {
   background-color: #0089b6;
 }
 table.dataTable.display tbody > tr.selected:hover > .sorting_1, table.dataTable.order-column.hover tbody > tr.selected:hover > .sorting_1 {
-  background-color: #0080aa;
+  background-color: #0081ab;
 }
 table.dataTable.display tbody > tr.selected:hover > .sorting_2, table.dataTable.order-column.hover tbody > tr.selected:hover > .sorting_2 {
-  background-color: #0081ac;
+  background-color: #0082ac;
 }
 table.dataTable.display tbody > tr.selected:hover > .sorting_3, table.dataTable.order-column.hover tbody > tr.selected:hover > .sorting_3 {
   background-color: #0083ae;
@@ -57,7 +58,7 @@ table.dataTable.display tbody > tr.selected:hover > .sorting_3, table.dataTable.
 table.dataTable.display tbody > tr:hover > .selected,
 table.dataTable.display tbody > tr > .selected:hover, table.dataTable.order-column.hover tbody > tr:hover > .selected,
 table.dataTable.order-column.hover tbody > tr > .selected:hover {
-  background-color: #0080aa;
+  background-color: #0081ab;
 }
 table.dataTable tbody td.select-checkbox,
 table.dataTable tbody th.select-checkbox {
@@ -76,7 +77,7 @@ table.dataTable tbody th.select-checkbox:after {
 }
 table.dataTable tbody td.select-checkbox:before,
 table.dataTable tbody th.select-checkbox:before {
-  content: ' ';
+  content: " ";
   margin-top: -6px;
   margin-left: -6px;
   border: 1px solid black;
@@ -84,7 +85,7 @@ table.dataTable tbody th.select-checkbox:before {
 }
 table.dataTable tr.selected td.select-checkbox:after,
 table.dataTable tr.selected th.select-checkbox:after {
-  content: '\2714';
+  content: "✔";
   margin-top: -11px;
   margin-left: -4px;
   text-align: center;
@@ -106,7 +107,7 @@ div.dataTables_wrapper span.select-item {
 
 @media screen and (max-width: 640px) {
   div.dataTables_wrapper span.select-info,
-  div.dataTables_wrapper span.select-item {
+div.dataTables_wrapper span.select-item {
     margin-left: 0;
     display: block;
   }
