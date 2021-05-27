@@ -1,6 +1,6 @@
-# Select for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)
+# Select for DataTables with styling for [Foundation](https://get.foundation/)
 
-This package contains distribution files required to style [Select extension](https://datatables.net/extensions/select) for [DataTables](https://datatables.net/) with styling for [Zurb Foundation](http://foundation.zurb.com/).
+This package contains a built distribution of the [Select extension](https://datatables.net/extensions/Select) for [DataTables](https://datatables.net/) with styling for [Foundation](https://get.foundation/).
 
 Select provides table item selection capabilities - rows, columns and cells can be selected individually or collectively. Complex selection operations such as operating system style selection (ctrl/cmd and shift click) for multiple rows can be enabled with a single option for a DataTable.
 
@@ -19,7 +19,7 @@ npm install datatables.net-select-zf
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-select-zf' )( window, $ );
+var dt = require( 'datatables.net-select-zf}' )( window, $ );
 ```
 
 ### bower
@@ -32,7 +32,7 @@ bower install --save datatables.net-select-zf
 
 ## Documentation
 
-Full documentation of the DataTables options, API and plug-in interface are available on the DOCS_LINK. The site also contains information on the wide variety of plug-ins that are available for DataTables, which can be used to enhance and customise your table even further.
+Full documentation and examples for Select can be found [on the website](https://datatables.net/extensions/select).
 
 
 ## Bug / Support
@@ -48,3 +48,4 @@ If you are thinking of contributing code to DataTables, first of all, thank you!
 ## License
 
 This software is released under the [MIT license](//datatables.net/license). You are free to use, modify and distribute this software, but all copyright information must remain.
+
