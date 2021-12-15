@@ -4,7 +4,7 @@
     "main": "js/select.foundation.js",
     "style": "css/select.foundation.css",
     "types": "./types/select.foundation.d.ts",
-    "version": "1.3.3",
+    "version": "1.3.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -12,7 +12,7 @@
     ],
     "keywords": [
         "select",
- "selection",
+        "selection",
         "Foundation",
         "Datatables",
         "jQuery",
