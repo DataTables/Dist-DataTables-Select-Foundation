@@ -4,7 +4,7 @@
     "main": "js/select.foundation.js",
     "style": "css/select.foundation.css",
     "types": "./types/select.foundation.d.ts",
-    "version": "1.3.4",
+    "version": "1.4.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -21,8 +21,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-select": ">=1.3.4",
-        "datatables.net-zf": ">=1.11.5",
+        "datatables.net-select": ">=1.4.0",
+        "datatables.net-zf": ">=1.12.1",
         "jquery": ">=1.7"
     },
     "moduleType": [
