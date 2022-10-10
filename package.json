@@ -2,12 +2,14 @@
     "name": "datatables.net-select-zf",
     "description": "Select for DataTables with styling for [Foundation](https://get.foundation/)",
     "main": "js/select.foundation.js",
+    "module": "js/select.foundation.mjs",
     "style": "css/select.foundation.css",
     "types": "./types/select.foundation.d.ts",
     "version": "1.4.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [

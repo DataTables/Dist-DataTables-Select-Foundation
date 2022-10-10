@@ -1,0 +1,1 @@
+import $ from"jquery";import DataTable from"datatables.net-zf";import DataTable from"datatables.net-select";export default DataTable;
