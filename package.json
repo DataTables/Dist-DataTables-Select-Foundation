@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-select-zf",
     "description": "Select for DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/select.foundation.js",
-    "module": "js/select.foundation.mjs",
-    "style": "css/select.foundation.css",
+    "main": "./js/select.foundation.js",
+    "module": "./js/select.foundation.mjs",
+    "style": "./css/select.foundation.css",
     "types": "./types/select.foundation.d.ts",
     "version": "4.0.1",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "select",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Select.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/select.foundation.d.ts",
+            "import": "./js/select.foundation.mjs",
+            "default": "./js/select.foundation.mjs",
+            "require": "./js/select.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/select.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
