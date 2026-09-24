@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/select.foundation.d.ts",
+            "style": "./css/select.foundation.css",
             "import": "./js/select.foundation.mjs",
-            "default": "./js/select.foundation.mjs",
-            "require": "./js/select.foundation.js"
+            "require": "./js/select.foundation.js",
+            "default": "./js/select.foundation.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
